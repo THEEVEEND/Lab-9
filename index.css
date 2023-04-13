@@ -1,9 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     display: flex;
-    align-self:center;
+    align-items:center;
     justify-content: center;
-    background-color: darkgray;
+    flex-direction: column ;
+    background-color: rgb(34, 34, 34);
 }
 
 img {
@@ -16,7 +17,7 @@ img {
 #Comment{
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: center;
     background-color: black;
     height: 70px;
     width: 600px;
@@ -41,6 +42,8 @@ img {
 .show{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 5px;
     background-color: black;
     height: 300px;
     width: 500px;
@@ -109,21 +112,11 @@ textarea{
     width: 450px;
     margin: 15px;
     border-radius: 5px;
-    color: aliceblue;
+    color: gray;
     font-size: 15px;
     outline: none;
 }
 
-.activatedButton{
-    height: 30px;
-    width: 450px;
-    margin: 15px;
-    border-radius: 5px;
-    background-color: palevioletred;
-    color: aliceblue;
-    font-size: 15px;
-    outline: none;
-}
 
 
 .card-comment{

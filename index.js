@@ -17,10 +17,13 @@ function hide() {
 }
 
 function mimi() {
-    if (textarea.length > 0) {
-        boton.style.backgroundColor = "pink"
+    var valuetext = document.getElementById("addComment").value
+    var botone = document.getElementById("button")
+
+    if (valuetext.length > 0) {
+        botone.style.backgroundColor = "pink"
     } else {
-        boton.style.backgroundColor = ""
+        botone.style.backgroundColor = ""
     }
 }
 
