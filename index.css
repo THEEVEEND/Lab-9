@@ -1,0 +1,160 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-self:center;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+
+#Comment{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    height: 70px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+#textBox{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    opacity: 50%;
+    height: 45px;
+    width: 500px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+#textBox p{
+    padding-left:20px;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+
+#topComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+#topComment h2{
+    position: absolute;
+}
+#topComment img{
+    margin-left: 80%;
+}
+
+hr{
+    width: 490px;
+    color: gray;
+
+}
+
+#bottomComment{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#addBottomComment{
+    display: flex;
+    align-items: center;
+    margin-right: 60%;
+}
+
+#addBottomComment p{
+    margin-left: 10px;
+}
+
+#img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin-left: -7px;
+}
+
+textarea{
+    height: 100px;
+    width: 450px;
+    background-color: black;
+    border: none;
+    color: gray;
+}
+
+.desactivatedButton{
+    height: 30px;
+    width: 450px;
+    margin: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    outline: none;
+}
+
+.activatedButton{
+    height: 30px;
+    width: 450px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: aliceblue;
+    font-size: 15px;
+    outline: none;
+}
+
+
+.card-comment{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: black;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.top-comment{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 45px;
+    width: 500px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.top-comment p{
+    margin-left: 10px;
+}
+
+.publish{
+    width: 85%;
+    margin-top: 5px;
+    text-align: left;
+    color: aliceblue;
+    font-size: 15px;
+}
